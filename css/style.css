@@ -94,16 +94,22 @@ h3 {
   font-size: 30px;
   text-align: center;
 }
+
+.buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
 .button-download {
   color: black;
   background-color: white;
   border-radius: 30px;
   text-align: center;
   cursor: pointer;
-  display: inline-block;
   padding: 20px;
   margin-right: 40px;
-  align-items: center;
+  justify-items: center;
 }
 .button-open-discord {
   background-color: black;
@@ -173,6 +179,13 @@ main > .download .col {
   background-image: url(../img/item4-big.svg);
   height: 600px;
   background-size: cover;
+}
+#star {
+  background-image: url(../img/stars.svg);
+}
+.adventure {
+}
+.button-Mac {
 }
 
 /* ## FOOTER */
