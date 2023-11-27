@@ -90,7 +90,7 @@ h1 {
   font-size: 100px;
 }
 h3 {
-  line-height: 30px;
+  line-height: 50px;
   font-size: 30px;
   text-align: center;
 }
@@ -109,7 +109,6 @@ h3 {
   cursor: pointer;
   padding: 20px;
   margin-right: 40px;
-  justify-items: center;
 }
 .button-open-discord {
   background-color: black;
@@ -182,10 +181,24 @@ main > .download .col {
 }
 #star {
   background-image: url(../img/stars.svg);
+  display: flex;
+  line: height 20px;
 }
 .adventure {
+  font-size: xx-large;
+  text-align: center;
 }
 .button-Mac {
+  background-color: #8ea1e1;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+  padding: 20px;
+  justify-content: center;
+  vertical-align: bottom;
+  font-size: xx-large;
+  margin: 10px;
 }
 
 /* ## FOOTER */
@@ -231,16 +244,28 @@ main > .download .col {
   justify-content: space-between;
   align-items: center;
 
-  /* debug */
+  /* debug 
   height: 100px;
-  background-color: #7fffd4;
+  background-color: #7fffd4;*/
 }
 
 .bottom-footer > .logo,
 .bottom-footer > .button {
   padding: 5px 10px;
 
-  /* debug */
+  /* debug 
   background-color: #fdb5bf;
-  border: 2px dashed black;
+  border: 2px dashed black;*/
+}
+.button {
+  background-color: #8ea1e1;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+  padding: 20px;
+  justify-content: center;
+  vertical-align: bottom;
+  font-size: large;
+  margin: 10px;
 }
