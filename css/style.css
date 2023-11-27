@@ -97,21 +97,22 @@ h3 {
 }
 .button-download {
   color: black;
-  height: 60px;
-  border-radius: 30px;
   background-color: white;
+  border-radius: 30px;
   text-align: center;
   cursor: pointer;
   display: inline-block;
+  padding: 20px;
+  margin-right: 40px;
 }
 .button-open-discord {
   background-color: black;
   color: white;
-  height: 60px;
   border-radius: 30px;
   text-align: center;
   cursor: pointer;
   display: inline-block;
+  padding: 20px;
 }
 
 /* ## ROWS SECTION */
