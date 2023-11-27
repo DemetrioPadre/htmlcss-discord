@@ -166,12 +166,13 @@ main > .download > .container {
 }
 
 main > .download .col {
+  height: 1000px;
 }
 
 #chill {
   background-image: url(../img/item4-big.svg);
   height: 600px;
-  background-size: contain;
+  background-size: cover;
 }
 
 /* ## FOOTER */
